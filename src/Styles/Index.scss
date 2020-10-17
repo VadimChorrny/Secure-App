@@ -1,3 +1,8 @@
+/* Import styles file */
+
+@import "./Color.scss";
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
 /* Defauld settings*/
 body {
   margin: 0;
@@ -14,3 +19,88 @@ code {
 }
 
 
+/* My code */
+
+/* Header */
+
+.nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+
+.brand-logo{
+  text-decoration: none;
+  padding-left: 10px;
+  display: flex;
+  margin-top: 0px;
+  font-size: 25px;
+  color: $black;
+  font-family: 'Sansita Swashed', cursive;
+
+}
+
+.nav-wrapper-list{
+  margin-top: 0px;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+
+}
+
+.nav-wrapper-list li{
+  text-decoration: none;
+  padding-left: 10px;
+  list-style-type: none;
+  font-family: 'Sansita Swashed', cursive;
+  color: $black;
+
+}
+
+.nav-wrapper-list a{
+  text-decoration: none;
+  color: $black;
+
+
+}
+
+
+/* Pass verefication */
+.wrapper{
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* Class Text */
+.wrapper-text p{
+  font-size: 40px;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.wrapper-text span{
+  color: $yellow;
+}
+
+/* Class Input */
+
+.wrapper-input{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-input{
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  outline: none;
+  text-align: center;
+  border-color: $doubleGray;
+}
